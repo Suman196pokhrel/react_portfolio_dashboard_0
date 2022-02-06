@@ -66,7 +66,7 @@ flex-direction : column;
 
 
 const Avatar = styled.img`
-height: 7rem;
+height: 10rem;
 border-radius: 6rem;
 margin-top:20%;
 `;
