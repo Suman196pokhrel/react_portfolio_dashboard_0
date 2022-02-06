@@ -120,13 +120,15 @@ svg{
 
 
 const ContactContainer = styled.div`
+
 width: 60%;
 background-color: #091322;
 color: #c4c4c4;
 height:15%;
 margin:auto auto;
 border-radius: 1rem;
-fles-direction: column;
+display: flex;
+flex-direction: column;
 padding: 1rem;
 
 a{
