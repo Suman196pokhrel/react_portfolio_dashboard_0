@@ -61,6 +61,8 @@ function Invoices() {
                  </Container>
             </Invoice>
 
+            
+
        </CardContent>
   </InvoicesContainer>;
 }
@@ -71,7 +73,7 @@ width: 35rem;
 border-radius: 1rem;
 margin-top: 1rem;
 background-color: white;
-height: 170%;
+// height: 170%;
 box-shadow: ${cardShadow};
 transition : 0.3s ease-in-out;
 
