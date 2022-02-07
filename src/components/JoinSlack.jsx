@@ -2,9 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Badge from './Badge';
 import {cardShadow,hoverEffect, themeColor, darkThemeColor} from '../utils'
-import AvatarImage from '../assets/avatar2.jpg'
-import AvatarImage2 from '../assets/avatar3.jpg'
-import AvatarImage3 from '../assets/avatar4.jpg'
+
 
 import {FaSlack} from 'react-icons/fa'
 

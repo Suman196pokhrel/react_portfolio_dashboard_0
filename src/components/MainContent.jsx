@@ -6,6 +6,7 @@ import Info from './Info';
 import Invoices from './Invoices';
 import JoinSlack from './JoinSlack';
 import NavBar from './NavBar';
+import ProjectRecommendation from './ProjectRecommendation';
 import Projects from './Projects';
 
 function MainContent() {
@@ -31,7 +32,10 @@ function MainContent() {
                  </InvoiceContainer>
                  <JoinSlack />
                  </ColumnOne2>
-                 <ColumnTwo2></ColumnTwo2>
+                 <ColumnTwo2>
+                 <TitleText> Recommended Projects</TitleText>
+                 <ProjectRecommendation />
+                 </ColumnTwo2>
             </SectionTwo>
        </SubContainer>
   </Container>;
