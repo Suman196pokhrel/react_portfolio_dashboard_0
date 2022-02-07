@@ -27,11 +27,20 @@ justify-content: space-between;
 align-items: center;
 height: 10%;
 
+@media screen and (min-width:320px) and (max-width:1000px){
+  margin-bottom : 1rem;
+  flex-direction : column;
+}
+
 `;
 const Text = styled.h1`
 span{
      font-weight:500;
      color: #484258
+}
+@media screen and (min-width:320px) and (max-width:1000px){
+  margin-top : 1rem;
+
 }
 
 `;

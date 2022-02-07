@@ -48,6 +48,12 @@ transition : 0.3s ease-in-out;
 &:hover{
      box-shadow:${hoverEffect}
 }
+
+@media screen and (min-width:320px) and (max-width:1000px){
+     width : 80%;
+
+   }
+
 `;
 const Card = styled.div`
 background-color: rgba(183,194,243,0.3);

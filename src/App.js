@@ -20,8 +20,13 @@ function App() {
 const Container = styled.div`
 display:flex;
 height:97vh;
+flex-direction : row;
 background: linear-gradient(to bottom right, white 0%, #e6e4ff 70%);
-border-radius:2rem
+border-radius:2rem;
+
+@media screen and (min-width:320px) and (max-width:1000px){
+  flex-direction: column;
+}
 
 
 `;

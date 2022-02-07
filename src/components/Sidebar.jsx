@@ -53,6 +53,14 @@ display:flex;
 flex-direction: column;
 align-items: center;
 gap: 3rem;
+@media screen and (min-width:320px) and (max-width:1000px){
+     width: 100%;
+     display : flex;
+     height : max-content !important;
+     
+   }
+
+
 `;
 
 
@@ -135,6 +143,11 @@ a{
      color: white;
      text-direction : none;
 }
+
+@media screen and (min-width:320px) and (max-width:1000px){
+     margin-bottom : 2rem;
+
+   }
 
 `;
 

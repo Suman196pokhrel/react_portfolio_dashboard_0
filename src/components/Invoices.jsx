@@ -80,8 +80,23 @@ transition : 0.3s ease-in-out;
 &:hover{
      box-shadow:${hoverEffect};
 }
+
+@media screen and (min-width:320px) and (max-width:1000px){
+     width : 80%;
+     display : flex;
+     justify-content : center;
+     align-items : center;
+
+   }
+
 `;
-const CardContent = styled.div``;
+const CardContent = styled.div`
+
+@media screen and (min-width:320px) and (max-width:1000px){
+     margin : 2rem 0;
+
+   }
+`;
 const Invoice = styled.div`
 display : flex;
 align-items: center;
@@ -89,11 +104,28 @@ justify-content: space-betwee;
 margin: 0.4rem;
 padding-top: 0.6rem;
 
+
+@media screen and (min-width:320px) and (max-width:1000px){
+    flex-direction : column;
+    gap : 1rem;
+
+   }
+
 `;
 const Info = styled.div`
 display:flex;
 align-items: center;
 width: 60%;
+
+
+@media screen and (min-width:320px) and (max-width:1000px){
+     font-direction : column;
+     width : 100%;
+     text-align : center;
+
+
+   }
+
 `;
 const Avatar = styled.div`
 img{
@@ -117,6 +149,14 @@ display: flex;
 justify-content: space-between;
 width: 30%;
 align-items: center;
+
+
+@media screen and (min-width:320px) and (max-width:1000px){
+     width : 100%;
+     flex-direction : column;
+     gap : 0.6rem;
+   }
+
 `;
 const Price = styled.div``;
 

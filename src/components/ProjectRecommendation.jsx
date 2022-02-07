@@ -46,6 +46,14 @@ transition : 0.3s ease-in-out;
 &:hover{
      box-shadow:${hoverEffect};
 }
+@media screen and (min-width:320px) and (max-width:1000px){
+     width : 80%;
+     height : max-content;
+     margin: 2rem 0;
+    
+
+   }
+
 `;
 const CardContent= styled.div`
 margin: 0.4rem;
@@ -55,6 +63,15 @@ const Detail = styled.div`
 display: flex;
 justify-content: space-around;
 align-items : center;
+
+@media screen and (min-width:320px) and (max-width:1000px){
+     flex-direction: column;
+     justify-content : flex-start;
+     align-items : flex-start;
+     gap : 0.2rem;
+     margin-bottom : 1rem;
+
+   }
 
 `;
 const InfoContainer = styled.div`
@@ -93,7 +110,15 @@ justify-content: space-between;
 margin : 0 1 rem;
 padding : 0.5rem 1rem;
 border-radius: 1rem;
-background-color : rgba(146,166,255,0.3)
+background-color : rgba(146,166,255,0.3);
+
+@media screen and (min-width:320px) and (max-width:1000px){
+     flex-direction : column;
+     gap : 0.4rem;
+
+   }
+
+
 `;
 const Price = styled.div``;
 

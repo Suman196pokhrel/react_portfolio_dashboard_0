@@ -56,6 +56,14 @@ transition : 0.3s ease-in-out;
      box-shadow:${hoverEffect};
 }
 
+
+@media screen and (min-width:320px) and (max-width:1000px){
+     width : 75%;
+     height : max-content;
+     margin-top: 1rem;
+
+   }
+
 `;
 const Project = styled.div`
 display: flex;
@@ -75,6 +83,11 @@ margin-left: 1rem;
 `;
 const Title = styled.h3`
 font-weight:500;
+
+@media screen and (min-width:320px) and (max-width:1000px){
+     font-size : 1rem;
+
+   }
 
 `;
 const SubTitle = styled.h5`

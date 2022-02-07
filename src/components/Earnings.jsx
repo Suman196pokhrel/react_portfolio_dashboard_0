@@ -30,6 +30,11 @@ transition : 0.3s ease-in-out;
      box-shadow:${hoverEffect}
 }
 
+@media screen and (min-width:320px) and (max-width:1000px){
+     width : 80%;
+
+   }
+
 `;
 
 const CardContent = styled.div`
