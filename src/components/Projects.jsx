@@ -48,9 +48,10 @@ background-color: white;
 margin: 0;
 padding: 1rem;
 border-radius: 1rem;
+overflow-y:hidden;
 box-shadow: ${cardShadow};
 transition : 0.3s ease-in-out;
-overflow-y:hidden;
+
 &:hover{
      box-shadow:${hoverEffect};
 }
